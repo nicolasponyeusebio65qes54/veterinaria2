@@ -1,0 +1,279 @@
+sidebar-nav ul li a {
+
+    font-size: 26px;
+
+    text-decoration: none;
+
+    display: block;
+
+    padding: 6px 10px;
+
+    transition: 0.5s;
+
+}
+
+.sidebar-nav ul li a:hover {
+
+    background-color: pink;
+
+    border-radius: 4px;
+
+}
+
+.sidebar-nav .offcanvas {
+
+    width: 220px;
+
+    border: none;
+    
+
+}
+
+.sidebar-nav .offcanvas ul li a span {
+
+    font-size: 18px;
+
+    position: relative;
+
+    top: -4px;
+
+    transition: 0.5s;
+
+}
+
+.sidebar-nav .offcanvas.show ul li a:hover span {
+
+    padding-left: 10px;
+
+}
+
+.sidebar-nav .dropdown-toggle::after {
+
+    position: relative;
+
+    top: 3px;
+
+}
+
+
+header{
+    background: url("../img/xd.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.bg-nav-rumbo{
+    background: transparent !important;
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+#hero{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+
+
+
+#contenedor{
+    text-align: center;
+    margin-top: 500px;
+    
+
+}
+#planes{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+#planes  h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#planes  p {
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+#hero h2{
+    font-size: 60px;
+    color:black;
+    margin-bottom: 0;
+}
+
+#hero h1{
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+#hero button{
+    background-color: rgb(255, 251, 0);
+    color: grey;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+/* Estilos de la seccion planes */
+#planes {
+    padding: 120px 0;
+    text-align: center;
+
+}
+
+#planes h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+#planes p {
+    font-size: 22px;
+}
+#planes .plan {
+    margin-top: 80px;
+    position: relative;
+
+}
+
+#planes .plan h3 {
+    color: rgb(236, 8, 8);
+    position: absolute;
+    z-index: 99;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+/* estilos de la seccion destinos */
+
+#destinos{
+    width: 100%;
+    background: url("../img/0000000020.jpeg");
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+#destinos h2{
+    color: #e8f00c;
+    font-size: 40px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+#destinos h3{
+    color: #fff;
+    font-size: 28px;
+    margin: 20px 0 50px;
+}
+/* estilos seccion contacto */
+
+#contacto{
+    width: 100%;
+    background: #04ffc0;
+    text-align: center;
+    padding: 90px 0;
+}
+
+#contacto h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+#contacto p{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+#contacto form{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+#contacto form input,
+#contacto form select{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+
+#contacto form button{
+    padding: 12px 60px;
+    background: #272721;
+    color: #f1e319;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid #1037a1;
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+/* efectos hover */
+#hero img,
+nav img,
+#hero button,
+#planes img,
+#span,
+#contenedor
+#destinos img{
+    transition: .5s;
+}
+
+#hero img:hover{
+    transform: rotate(-360deg);
+}
+
+nav img:hover{
+    transform: scale(1.1);
+}
+
+#hero button:hover{
+    box-shadow: 4px 4px 0px 15px #f10606 ;
+}
+#planes img:hover{
+border-radius: 0%;
+transform: rotate(360deg);
+}
+#destinos img:hover{
+    transform: scale(0.8);
+}
+#navbar-toggler-icon{
+    transform: scale(1.1);
+}
+#contenedor{
+    transform: rotate(-360deg);
+
+}
+#planes{
+    transform: rotate(-360deg);
+
+
+}
